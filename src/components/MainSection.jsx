@@ -42,7 +42,7 @@ const Section2Images = [
 ];
 const Section2 = (
   <section>
-    <div className="mt-5 mb-10 flex flex-row justify-evenly max-h-[500px] bg-white bg-opacity-80 rounded-xl">
+    <div className="mt-5 py-5 mb-10 flex flex-row justify-evenly max-h-[500px] bg-white bg-opacity-80 rounded-xl">
       {Section2Images.map((item) => (
         <img
           key={item.description}
